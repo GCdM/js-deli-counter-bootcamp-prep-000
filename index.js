@@ -21,7 +21,7 @@ function currentLine(line) {
   else {
     var lineup = [];
     for (var i = 0; i < line.length; i++) {
-      lineup.push(`${i}. ${line[i]}`);
+      lineup.push(`${i + 1}. ${line[i]}`);
     }
   return `The line is currently: ${lineup}`    
   }
