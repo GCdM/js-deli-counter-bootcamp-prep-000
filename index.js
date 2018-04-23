@@ -10,7 +10,7 @@ function nowServing(line) {
   }
   else {
     var served = line.slice(0, 1);
-    delete line[0];
+    line.shift();
     return `Currently serving ${served}.`;
   }
 }
