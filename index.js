@@ -23,6 +23,6 @@ function currentLine(line) {
     for (var i = 0; i < line.length; i++) {
       lineup.push(` ${i + 1}. ${line[i]}`);
     }
-  return `The line is currently: ${lineup}`    
+  return `The line is currently:${lineup}`    
   }
 }
