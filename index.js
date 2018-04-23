@@ -11,6 +11,6 @@ function nowServing() {
   else {
     var served = katzDeliLine.slice(0, 1);
     delete katzDeliLine[0];
-    return served;
+    return `Currently serving ${served}.`;
   }
 }
